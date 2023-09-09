@@ -1,0 +1,69 @@
+.title {
+	flex: 1;
+	grid-row: inherit;
+}
+
+.topnav {
+	background-color: #74a6a9;
+	display: flex;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.topnav a {
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.topnav a:hover {
+	color: #000000;
+}
+
+.topnav a.active {
+	text-decoration: overline;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.sidebar {
+	display: flex;
+	width: 300px;
+	background-color: #598486;
+	height: 100vh;
+	justify-content: center;
+	color: white;
+}
+
+.profilepic {
+	display: flex;
+	border-radius: 100%;
+	height: 150px;
+	margin-top: 80px;
+	align-self: center;
+}
+
+.mailText a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.logos {
+	height: 15px;
+}
+
+body,
+html {
+	margin: 0px;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
