@@ -30,16 +30,38 @@
 
 .wrapper {
 	display: flex;
-	flex-direction: row;
+	flex-flow: row;
+	justify-content: space-between flex-start;
 }
 
 .sidebar {
 	display: flex;
 	width: 300px;
 	background-color: #598486;
-	height: 100vh;
+	height: auto;
+	float: left;
 	justify-content: center;
 	color: white;
+}
+
+.infoWrapper {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+
+.info{
+	margin: 100px;
+}
+
+.text {
+	width: 400px;
+}
+
+.sebratec {
+	height: 100px;
 }
 
 .profilepic {
