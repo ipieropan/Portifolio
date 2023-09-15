@@ -4,9 +4,7 @@
 }
 
 /* ****Top nav bar and foooter styled on global styles to organize better**** */
-body{
-	background-color: #2e2d2d;
-}
+
 .home {
 	height: 100vh;
 	display: flex;
@@ -61,11 +59,4 @@ body{
 	height: 100px;
 }
 
-body,
-html {
-	margin: 0px;
-}
 
-* {
-	font-family: Arial, Helvetica, sans-serif;
-}
