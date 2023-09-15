@@ -4,47 +4,73 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="./globalstyles/navbar.css" />
+		<link rel="stylesheet" href="./globalstyles/footer.css" />
+		<link rel="icon" type="image/x-icon" href="/pics/favicon.ico" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<title>My portifolio</title>
 	</head>
 	<body>
-		<div class="container">
+		<!--Navbar-->
+		<header class="header">
 			<nav class="topnav">
-				<a class="active" href="#index">Home</a>
-				<a href="">CV</a>
-				<a href="/projects.html">Projekt</a>
-				<a href="/button.html">Button</a>
-				<a href="https://www.linkedin.com/in/igor-pieropan-131ab2205/"
-					>Contact</a
+				<a class="active" href="/index.html">Home</a>
+				<a href="button/button.html">Button</a>
+				<a href="https://www.youtube.com/watch?v=siLkbdVxntU" target="_blank"
+					>MJ</a
 				>
 			</nav>
-
-			<div class="wrapper">
-				<div class="sidebar">
-					<div class="info">
-						<img
-							class="profilepic"
-							src="pics/1634633190629.jpg"
-							alt="profile pic"
-						/>
-						<h4>Igor Pieropan Alvares</h4>
-						<p><b>Skills:</b></p>
-						<ul>
-							<li>Html</li>
-							<li>CSS</li>
-							<li>Typescript</li>
-							<li>Bootstrap</li>
-							<li>React</li>
-							<li>Jira</li>
-							<li>AWS amplify</li>
-							<li>ASP.NET MVC</li>
-							<li>Vite.js</li>
-						</ul>
-					</div>
-				</div>
-				<div class="info">
-					<img src="pics/01-container.svg" alt="profile pic" />
-				</div>
+		</header>
+		<!--Navbar-->
+		<section class="home">
+			<div class="main_content">
+				<h1>Hey, I'm Igor Pieropan</h1>
+				<h3>Frontend student</h3>
+				<p>
+					I started my carrer at Sebratec as a frontend developer. I worked on
+					the app Insoner creating new pages and improving the code. In this
+					project I used React.js, typescript, bootstrap, git & AWS Amplify.
+				</p>
+				<p>
+					The Insoner app function is to help recruiters teams match the
+					candidates with the right position.
+				</p>
+				<img src="pics/insoner-logo-light.webp" alt="" class="sebratec" /><br />
+				<a href="https://insoner.io/en/" target="_blank"
+					>For more info about the app</a
+				>
+				<p>
+					<b>
+						Skills: Html <i class="fab fa-html5"></i> 
+						CSS <i class="fab fa-css3"></i>
+						React <i class="fab fa-react"></i>
+						Javascprit <i class="fab fa-js-square"></i>
+					</b>
+				</p>
 			</div>
-		</div>
+		</section>
+		<!--Footer -->
+		<section class="footer">
+			<div class="social">
+				<a href="https://www.instagram.com/ipieropan/" target="_blank"
+					><i class="fab fa-instagram"></i
+				></a>
+				<a
+					href="https://www.linkedin.com/in/igor-pieropan-131ab2205/"
+					target="_blank"
+					><i class="fab fa-linkedin"></i
+				></a>
+				<a href="https://github.com/ipieropan" target="_blank"
+					><i class="fab fa-github"></i
+				></a>
+				<p class="copyright">Igor Pieropan &copy; 2023</p>
+			</div>
+		</section>
 	</body>
 </html>
