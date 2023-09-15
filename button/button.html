@@ -7,18 +7,29 @@
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="styleBtn.css" />
-		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="../globalstyles/navbar.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<link rel="icon" type="image/x-icon" href="/pics/favicon.ico" />
 	</head>
 	<body>
-		<nav class="topnav">
-			<a href="../index.html">Home</a>
-			<a href="">CV</a>
-			<a class="active" href="button/button.html">Button</a>
-		</nav>
-		<button id="tryBtn">Click here</button>
-		<script src="button.js" async defer></script>
-		<!--here i linked the lib to the code-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+		<header class="header">
+			<nav class="topnav">
+				<a href="../index.html">Home</a>
+				<a class="active" href="button/button.html">Button</a>
+			</nav>
+		</header>
+
+		<div>
+			<button id="tryBtn">Click here</button>
+			<script src="button.js" async defer></script>
+			<!--here i linked the lib to the code-->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+		</div>
 	</body>
 </html>
