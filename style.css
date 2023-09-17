@@ -10,7 +10,7 @@
 	display: flex;
 	align-items: center;
 	padding: 0 10%;
-	background: url('/pics/me.png') no-repeat; /*putting the pic as background*/
+	background: url('/pics/igorbg.png') no-repeat; /*putting the pic as background*/
 	background-position: 100%; /* 100% makes the pic go to the left */
 }
 

@@ -10,7 +10,7 @@
 	flex: 3;
 	padding: 20px;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	gap: 20px;
 }
 
@@ -26,10 +26,15 @@
 .card img {
 	max-width: 100%;
 	display: block;
+    height: 300px;
 }
 
 .card p {
 	padding: 10px;
+}
+
+.card h2{
+    text-align: center;
 }
 
 .button {
