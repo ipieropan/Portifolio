@@ -4,17 +4,16 @@
 }
 
 /* ****Top nav bar and foooter styled on global styles to organize better**** */
-body{
-	background-color: #2e2d2d;
-}
+
 .home {
 	height: 100vh;
 	display: flex;
 	align-items: center;
 	padding: 0 10%;
-	background: url('/pics/me.png') no-repeat; /*putting the pic as background*/
+	background: url('/pics/igorbg.png') no-repeat; /*putting the pic as background*/
 	background-position: 100%; /* 100% makes the pic go to the left */
 }
+
 
 .main_content {
 	max-width: 600px;
@@ -61,11 +60,4 @@ body{
 	height: 100px;
 }
 
-body,
-html {
-	margin: 0px;
-}
 
-* {
-	font-family: Arial, Helvetica, sans-serif;
-}
